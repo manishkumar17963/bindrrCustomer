@@ -1,12 +1,12 @@
 {
-  "name": "Femperio",
-  "short_name": "Femperio",
+  "name": "Bindrr",
+  "short_name": "Bindrr",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#FFFFFF",
   "orientation": "portrait-primary",
-  "Description": "Choose Karo...Book Karo...",
+  "Description": "Discove and Experience",
   "dir": "ltr",
   "lang": "en-IN",
   "icons": [

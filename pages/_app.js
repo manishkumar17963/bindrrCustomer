@@ -73,7 +73,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <title>Your Destination our Cab</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Your Anytime Travel Partner" />
+        <meta name="description" content="Discover and Experience More" />
         <link rel="manifest" href="/manifest.json" />
         <link
           href="/icons/icon-64*64.png"
