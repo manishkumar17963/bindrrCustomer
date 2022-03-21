@@ -1,18 +1,42 @@
 {
-  "name": "login-tutorial",
+  "name": "femporial",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4040",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.3",
+    "@reduxjs/toolkit": "^1.7.2",
+    "axios": "^0.26.0",
+    "bcrypt": "^5.0.1",
+    "cookies": "^0.8.0",
+    "formik": "^2.2.9",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
     "mongodb": "^3.6.6",
     "mongoose": "^5.12.7",
-    "next": "10.2.0",
+    "next": "^12.0.10",
     "next-auth": "^3.19.6",
+    "next-pwa": "^5.4.4",
+    "next-redux-cookie-wrapper": "^2.1.2",
+    "next-redux-wrapper": "^7.0.5",
+    "next-share": "^0.13.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-places-autocomplete": "^7.3.0",
+    "react-redux": "^7.2.6",
+    "react-spring-bottom-sheet": "^3.4.0",
+    "react-toggle": "^4.1.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.1",
+    "tailwindcss": "^3.0.7"
   }
 }
