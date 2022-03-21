@@ -90,7 +90,7 @@ function Home() {
   }, [detail])
 
   return (
-    <div className="mt-top h-screen overflow-scroll bg-white  pb-16">
+    <div className="mt-top h-height overflow-scroll bg-white  pb-16">
       {(!posts || isLoading) && (
         <LoadingPopup
           Icon={ShieldCheckIcon}

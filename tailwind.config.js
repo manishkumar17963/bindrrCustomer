@@ -21,7 +21,7 @@ module.exports = {
       },
 
       height: {
-        height: 'calc(100vh - 3rem)',
+        height: 'calc(100vh - 4rem)',
         cardImage: '300px',
         smallCard: '145px',
         68: '17rem',
