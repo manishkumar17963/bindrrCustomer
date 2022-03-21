@@ -38,7 +38,7 @@ export default function Post({ color = 'bg-card', post, toggleLikeHandler }) {
         </div>
         {post.distance && (
           <div className="mr-2 rounded-sm bg-secondary px-2 py-2 text-xs">
-            {(post.distance / 1000).toFixed(1)} Km Away
+            {`${((post.distance ?? 0.0) / 1000).toFixed(1)} Km Away`}
           </div>
         )}
         {post.state && (
